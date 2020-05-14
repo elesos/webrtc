@@ -1,5 +1,7 @@
 # API header files
 
+elesos:The source code of the WebRTC Native API
+
 As a user of the WebRTC library, you may use headers and build files
 in the following directories:
 
@@ -9,7 +11,7 @@ API directory | Including subdirectories?
 
 For now, you may also use headers and build files in the following
 legacy API directories&mdash;but see the
-[disclaimer](#legacy-disclaimer) below.
+[disclaimer](#legacy-disclaimer) below.免责声明
 
 Legacy API directory                       | Including subdirectories?
 -------------------------------------------|--------------------------

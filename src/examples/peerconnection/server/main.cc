@@ -1,25 +1,32 @@
-/*
- *  Copyright 2011 The WebRTC Project Authors. All rights reserved.
- *
- *  Use of this source code is governed by a BSD-style license
- *  that can be found in the LICENSE file in the root of the source
- *  tree. An additional intellectual property rights grant can be found
- *  in the file PATENTS.  All contributing project authors may
- *  be found in the AUTHORS file in the root of the source tree.
- */
+
 
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
+
 #if defined(WEBRTC_POSIX)
 #include <sys/select.h>
 #endif
+
 #include <time.h>
 
 #include <string>
 #include <vector>
 
-#include "absl/flags/flag.h"
+/*
+
+https://github.com/abseil/abseil-cpp
+
+Abseil 是一个开源的C++库，从谷歌的代码库里面收集而来，可以扩展C++标准库的功能
+
+通过Bazel 来编译，也可以使用cmake
+
+
+*/
+
+
+
+#include "absl/flags/flag.h"  
 #include "absl/flags/parse.h"
 #include "absl/flags/usage.h"
 #include "examples/peerconnection/server/data_socket.h"
