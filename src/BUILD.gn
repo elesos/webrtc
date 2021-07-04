@@ -1,11 +1,3 @@
-# Copyright (c) 2014 The WebRTC project authors. All Rights Reserved.
-#
-# Use of this source code is governed by a BSD-style license
-# that can be found in the LICENSE file in the root of the source
-# tree. An additional intellectual property rights grant can be found
-# in the file PATENTS.  All contributing project authors may
-# be found in the AUTHORS file in the root of the source tree.
-
 # This is the root build file for GN. GN will start processing by loading this
 # file, and recursively load all dependencies until all dependencies are either
 # resolved or known not to exist (which will cause the build to fail). So if

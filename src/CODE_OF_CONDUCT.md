@@ -63,6 +63,3 @@ The decisions of the WebRTC community managers may be appealed via community-app
 This Code of Conduct is based on Contributor Covenant, version 1.4,
 available [here](http://contributor-covenant.org/version/1/4) and [Chromium](https://chromium.googlesource.com/chromium/src/+/master/CODE_OF_CONDUCT.md)
 
-## License
-
-This Code of Conduct is available for reuse under the Creative Commons Zero (CC0) license.
