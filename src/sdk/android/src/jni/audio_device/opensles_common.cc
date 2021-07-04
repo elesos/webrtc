@@ -119,13 +119,10 @@ SLObjectItf OpenSLEngineManager::GetOpenSLEngine() {
     return engine_object_.Get();
   }
   // Create the engine object in thread safe mode.
-  const SLEngineOption option[] = {
-      {SL_ENGINEOPTION_THREADSAFE, static_cast<SLuint32>(SL_BOOLEAN_TRUE)}};
-  SLresult result =
-      slCreateEngine(engine_object_.Receive(), 1, option, 0, NULL, NULL);
+  const SLEngineOption option[] = {{SL_ENGINEOPTION_THREADSAFE, static_cast<SLuint32>(SL_BOOLEAN_TRUE)}};
+  SLresult result = slCreateEngine(engine_object_.Receive(), 1, option, 0, NULL, NULL);
   if (result != SL_RESULT_SUCCESS) {
-    RTC_LOG(LS_ERROR) << "slCreateEngine() failed: "
-                      << GetSLErrorString(result);
+    RTC_LOG(LS_ERROR) << "slCreateEngine() failed: " << GetSLErrorString(result);
     engine_object_.Reset();
     return nullptr;
   }
