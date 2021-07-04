@@ -1,17 +1,6 @@
 # FAQ
 
-### What is WebRTC?
 
-WebRTC is an open framework for the web that enables Real Time Communications
-in the browser. It includes the fundamental building blocks for high-quality
-communications on the web, such as network, audio and video components used in
-voice and video chat applications.
-
-These components, when implemented in a browser, can be accessed through a
-JavaScript API, enabling developers to easily implement their own RTC web app.
-
-The WebRTC effort is being standardized on an API level at the W3C and at the
-protocol level at the IETF.
 
 
 ### Why should I use WebRTC?
@@ -103,12 +92,6 @@ networks. Also included are components for establishing a peer-to-peer
 connection using ICE / STUN / Turn / RTP-over-TCP and support for proxies.
 
 
-### How do I access the WebRTC code?
-
-Go to [https://webrtc.googlesource.com/src][webrtc-repo-link].
-
-[webrtc-repo-link]: https://webrtc.googlesource.com/src
-
 
 ### How can I test the quality of WebRTC components?
 
@@ -153,23 +136,18 @@ JavaScript APIs that call WebRTC in the browsers will only require typical web
 development skills.
 
 
-### Is the WebRTC project owned by Google or is it independent?
-
-WebRTC is an open-source project supported by Google, Mozilla and Opera. The
-API and underlying protocols are being developed jointly at the W3C and IETF.
 
 
 ### Are the WebRTC components from Google's acquisition of Global IP Solutions?
 
 Yes. Some components, such as VoiceEngine, VideoEngine, NetEQ, AEC, et al. all
-stem from the GIPS acquisition.
+stem from the GIPS acquisition收购.
 
 
 ### What codecs are supported in WebRTC?
 
 The currently supported voice codecs are G.711, G.722, iLBC, and iSAC, and VP8
-is the supported video codec. The list of supported codecs may change in the
-future.
+is the supported video codec. 
 
 
 ### Please explain how WebRTC is free of charge?
@@ -184,30 +162,10 @@ page][license-link].
 [license-link]: https://webrtc.googlesource.com/src/+/refs/heads/master/docs/license/index.md
 
 
-### What does this license let me do?
-
-Like most BSD licenses, this license allows you to use the WebRTC code with a
-minimum of restrictions on your use. You can use the code in proprietary
-software as well as open source software.
 
 
-### Do I need to release the source if I make changes?
-
-No, the license does not require you to release source if you make changes.
-However, we would love to see any changes you make and possibly incorporate
-them, so if you want to participate please visit the
-[code review page][code-review-link] and submit some patches.
-
-[code-review-link]: https://webrtc-review.googlesource.com/
 
 
-### Why is there a separate patent grant?
-
-In order to decouple patents from copyright, thus preserving the pure BSD
-nature of the copyright license, the license and the patent grant are
-separate. This means we are using a standard (BSD) open source copyright
-license, and the patent grant can exist on its own. This makes WebRTC
-compatible with all major license scenarios.
 
 
 ### What if someone gets the code from Google and gives it to me without changes. Do I have a patent grant from Google?
