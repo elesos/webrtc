@@ -1,4 +1,3 @@
-webrtc.si4project
 *.DS_Store
 *.Makefile
 *.host.mk
